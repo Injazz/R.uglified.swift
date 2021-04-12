@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "R.swift"
+  spec.name         = "R.swift.compact"
   spec.version      = ENV['POD_VERSION']
   spec.license      = "MIT"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/mac_cain13"
 
   spec.requires_arc       = true
-  spec.source             = { :http => "https://github.com/mac-cain13/R.swift/releases/download/v#{spec.version}/rswift-v#{spec.version}.zip" }
+  spec.source       = { :git => "https://github.com/Injazz/R.uglified.swift.git", :tag => "#{s.version}" }
   spec.swift_version      = "5.1"
 
   spec.ios.deployment_target     = '9.0'

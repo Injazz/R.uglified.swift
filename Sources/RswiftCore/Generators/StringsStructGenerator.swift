@@ -61,7 +61,7 @@ struct StringsStructGenerator: ExternalOnlyStructGenerator {
       implements: [],
       typealiasses: [],
       properties: params.map { stringLet(values: $0, at: externalAccessLevel) },
-      functions: params.map { stringFunction(values: $0, at: externalAccessLevel) },
+      functions: [],
       structs: [],
       classes: [],
       os: []
@@ -216,7 +216,7 @@ struct StringsStructGenerator: ExternalOnlyStructGenerator {
       .joined(separator: ", ")
 
     return Let(
-      comments: values.comments,
+      comments: [],
       accessModifier: externalAccessLevel,
       isStatic: true,
       name: SwiftIdentifier(name: values.key),

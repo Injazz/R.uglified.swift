@@ -168,7 +168,7 @@ struct SegueStructGenerator: ExternalOnlyStructGenerator {
       implements: [],
       typealiasses: [],
       properties: properties,
-      functions: functions,
+      functions: [],
       structs: [],
       classes: [],
       os: []

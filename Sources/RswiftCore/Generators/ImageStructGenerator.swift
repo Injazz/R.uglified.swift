@@ -142,7 +142,7 @@ private extension NamespacedAssetSubfolder {
       implements: [],
       typealiasses: [],
       properties: imageLets,
-      functions: groupedFunctions.uniques.map { imageFunction(for: $0, at: externalAccessLevel, prefix: qualifiedName) },
+      functions: [],
       structs: structs,
       classes: [],
       os: []

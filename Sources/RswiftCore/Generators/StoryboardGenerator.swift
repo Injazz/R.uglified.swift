@@ -214,7 +214,7 @@ struct StoryboardStructGenerator: StructGenerator {
       implements: implements,
       typealiasses: typealiasses,
       properties: properties,
-      functions: functions,
+      functions: [],
       structs: [],
       classes: [],
       os: ["iOS", "tvOS"]
